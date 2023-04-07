@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>по-любому</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="title">
+		<span class="text-title">Ферма по-любому</span>
+		<div class="login_n_icon">
+			<span>666</span>
+			
+		</div>	
+	</div>
+	<div class="background-preview">
+		<div class="greeting">
+			<span>Салам малейкум</span>
+			<span>Ферма по-любому, работаем по кайфу жи естЬ</span>
+		</div>
+	</div>
+
+	<div class="title-microclimate">
+		<span>Датчики</span>
+	</div>
+	<div class="microclimate">
+		<div class="microclimate-case">
+			<img src="Img/temp.svg" alt="temp" class="mic-img">
+			<span>25°C</span>
+			<span>Температура</span>
+		</div>
+		<div class="microclimate-case">
+			<img src="Img/wet.svg" alt="wet" class="mic-img">
+			<span>80%</span>
+			<span>Влажность</span>
+		</div>
+		<div class="microclimate-case">
+			<img src="Img/liquid_level.svg" alt="Liquid" class="mic-img">
+			<span>75%</span>
+			<span>Жидкость</span>
+		</div>
+		<div class="microclimate-case">
+			<img src="Img/rmp.svg" alt="rmp" class="mic-img">
+			<span>1200 об\мин</span>
+			<span>Вентиляция</span>
+		</div>
+	</div>
+
+	<div class="light-irrigation">
+		<div class="light">
+			<div class="title-light">
+				<span>Управление светом</span>
+			</div>
+			<div class="lighting-control">
+
+				
+				<div class="lamp">
+					<span>1 Уровень</span>
+					<div class="div-switch">
+						<label class="switch">
+						  <input type="checkbox">
+						  <span class="slider round"></span>
+						</label>
+					</div>
+					
+				</div> 
+				<div class="lamp">
+					<span>2 Уровень</span>
+					<div class="div-switch">
+						<label class="switch">
+						  <input type="checkbox">
+						  <span class="slider round"></span>
+						</label>
+					</div>
+					
+				</div>
+				<div class="lamp">
+					<span>3 Уровень</span>
+					<div class="div-switch">
+						<label class="switch">
+						  <input type="checkbox">
+						  <span class="slider round"></span>
+						</label>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="irrigation">
+			<div class="title-irrigation-management">
+				<span>Управление поливом</span>
+			</div>
+			<div class="irrigation-management">
+				<img src="Img/liquid_level.svg" alt="Liquid" class="mic-img">
+				
+
+				<div class="indent">
+					
+					  <input type="range" value="7" min="0" max="10" step="1" oninput="rangevalue.value=value"/>
+					  <output id="rangevalue">7</output>
+					  <span>Литров</span>	
+				</div>
+
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="title-camera">
+		<span>Видеонаблюдение</span>
+	</div>
+
+	<div class="all-camera">
+		<div class="camera-1">
+			<span class="text-cctv"><p class="border">Cam 1</p></span>
+			<span class="text-cctv"><p class="border">Cam 2</p></span>
+			<span class="text-cctv"><p class="border">Cam 3</p></span>
+		</div>
+		<div class="camera-2">
+			<span class="text-cctv">Камеры не работают</span>
+		</div>
+	</div>
+
+
+
+	<div class="notes-com">
+		<div class="notes">
+			<div class="title-notes">
+				<span>Заметки</span>
+			</div>
+			<div class="notes-content">
+				<div class="text-comments">
+					<span>Съесть огурец</span>
+					<span>Посолить помидор</span>
+					<span>Приготовить всё на мангале</span>
+					
+				</div>
+				<div class="down-text">
+					<!-- <span>Write notes...</span> -->
+					<input type="text" placeholder="Напишите заметку:">
+				</div>
+			</div>
+		</div>
+		<div class="comments">
+			<div class="titles-comments">
+				<span>Последняя активность</span>
+			</div>
+			<div class="comments-content">
+				<div class="text-activite">
+				
+					<span>666 зашёл в 06:06 06.06.2006</span>
+					<span>666 зашёл в 15:32 11.07.2018</span>
+					<span>666 зашёл в 12:10 26.04.2022</span>
+				
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="indent-down"></div>
+
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
